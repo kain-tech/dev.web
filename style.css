@@ -1,0 +1,135 @@
+ body{
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    background-color: black;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+header{
+    box-shadow: 0 3px 5px #ffd500;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    background-color: #260632;
+
+    position: sticky;
+
+    top: 0px;
+}
+
+#titulo{
+    margin-left: 10em;
+}
+
+#list_nav{
+    display: flex;
+
+    flex-direction: row;
+}
+
+.item_nav{
+    margin: 1em;
+}
+
+a{
+    text-decoration: none;
+
+    color: #ffd500;
+}
+
+a:hover{
+    color: white;
+}
+
+main{
+    text-align: center;
+}
+
+section{
+    box-shadow: 0 3px 5px #ffd500;
+
+    padding-bottom: 2em;
+}
+
+.imagem{
+    width: 50%;
+}
+
+p{
+    color: white;
+
+    padding: 1em;
+}
+
+.Titulos{
+    color: white;
+
+    padding: 1em;
+}
+
+.falas{
+    color: #ffd500;
+
+    padding: 1em;
+}
+
+.respostas{
+    color: #3880B4;
+
+    padding: 1em;
+}
+
+#lista_capitulos{
+    display: none;
+
+    margin-left: -23em;
+
+    margin-right: -10em;
+}
+
+i{
+    font-size: 2em;
+
+    color: #ffd500;
+}
+
+button{
+    background-color: #260632;
+}
+
+h4{
+    color: white;
+}
+
+article{
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    box-shadow: 0 3px #ffd500;
+
+    padding: 1em;
+}
+
+div{
+    display: flex;
+
+    flex-direction: column;
+}
+
+.imagem_perfil{
+    width: 30%;
+}
