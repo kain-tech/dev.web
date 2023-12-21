@@ -13,6 +13,10 @@
 }
 
 header{
+    margin: 0;
+
+    padding: 0;
+ 
     box-shadow: 0 3px 5px #ffd500;
 
     display: flex;
