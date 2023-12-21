@@ -13,10 +13,6 @@
 }
 
 header{
-    margin: 0;
-
-    padding: 0;
- 
     box-shadow: 0 3px 5px #ffd500;
 
     display: flex;
@@ -33,7 +29,7 @@ header{
 }
 
 #titulo{
-    margin-left: 10em;
+    margin-left: 5em;
 }
 
 #list_nav{
