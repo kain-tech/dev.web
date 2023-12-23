@@ -80,30 +80,6 @@ p{
     padding: 1em;
 }
 
-.respostas{
-    color: #ffd500;
-
-    padding: 1em;
-}
-
-#lista_capitulos{
-    display: none;
-
-    margin-left: -23em;
-
-    margin-right: -10em;
-}
-
-i{
-    font-size: 2em;
-
-    color: #ffd500;
-}
-
-button{
-    background-color: #260632;
-}
-
 h4{
     color: white;
 }
@@ -132,37 +108,4 @@ div{
 
 .logo{
     width: 70%;
-}
-
-#menu {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-#menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-#menu li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-}
-
-#menu a {
-    text-decoration: none;
-    color: #ffd500;
-    display: block;
-}
-
-.escondido {
-    display: none;
-}
-
-.visivel {
-    display: block;
 }
