@@ -96,12 +96,6 @@ article{
     padding: 1em;
 }
 
-div{
-    display: flex;
-
-    flex-direction: column;
-}
-
 .imagem_perfil{
     width: 60%;
 }
