@@ -81,7 +81,7 @@ p{
 }
 
 .respostas{
-    color: #3880B4;
+    color: #ffd500;
 
     padding: 1em;
 }
@@ -132,4 +132,37 @@ div{
 
 .logo{
     width: 70%;
+}
+
+#menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ffd500;
+    display: block;
+}
+
+.escondido {
+    display: none;
+}
+
+.visivel {
+    display: block;
 }
